@@ -166,6 +166,7 @@ int _odp_stash_init_global(void)
 	}
 	_ODP_PRINT("  %s: %i\n", str, val);
 	max_num_obj = val;
+	max_num_obj = 36864U;
 
 	_ODP_PRINT("\n");
 

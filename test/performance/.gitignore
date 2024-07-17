@@ -31,3 +31,6 @@ odp_stash_perf
 odp_stress
 odp_timer_accuracy
 odp_timer_perf
+odp_shared_protocol
+odp_shared_protocol2
+odp_shared_protocol3

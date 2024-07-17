@@ -31,7 +31,10 @@ COMPILE_ONLY = odp_cpu_bench \
 	       odp_sched_perf \
 	       odp_sched_pktio \
 	       odp_timer_accuracy \
-	       odp_timer_perf
+	       odp_timer_perf \
+	       odp_shared_protocol \
+	       odp_shared_protocol2 \
+	       odp_shared_protocol3
 
 if LIBCONFIG
 COMPILE_ONLY += odp_ipsecfwd
@@ -89,6 +92,9 @@ odp_sched_perf_SOURCES = odp_sched_perf.c
 odp_stress_SOURCES = odp_stress.c
 odp_timer_accuracy_SOURCES = odp_timer_accuracy.c
 odp_timer_perf_SOURCES = odp_timer_perf.c
+odp_shared_protocol_SOURCES = odp_shared_protocol.c
+odp_shared_protocol2_SOURCES = odp_shared_protocol2.c
+odp_shared_protocol3_SOURCES = odp_shared_protocol3.c dma_ipc.h dma_ipc.c
 
 if LIBCONFIG
 odp_ipsecfwd_SOURCES = odp_ipsecfwd.c
